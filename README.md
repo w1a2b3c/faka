@@ -14,5 +14,6 @@
 
 根据用户的使用记录和喜好，智能推荐更适合的资源，提升购买转化率。 扫码进入小程序，获取相应的优惠码！
 
-小程序预览 ![Uploading image.png…]()
+小程序预览 
 
+![image](https://github.com/user-attachments/assets/27913971-40d3-4d83-a2d4-b588f0fd14d9)
