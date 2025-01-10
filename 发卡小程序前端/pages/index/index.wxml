@@ -1,0 +1,22 @@
+<view class="after-navber">
+  <!-- 删除广告代码 -->
+  <!-- <ad unit-id="adunit-3ce72f5fc97170c8" ad-type="video" ad-theme="white" bindload="adLoad" binderror="adError" bindclose="adClose"></ad> -->
+
+  <view class="container" style="width: 750rpx; height: 535rpx; display: flex; box-sizing: border-box">
+      <form bindsubmit="receive">
+          <picker bindchange="classChange" class="seachInput" range="{{classArray}}" rangeKey="name">
+              <view class="picker">
+                  <!-- 确保 classArray[classIndex] 有效时显示 -->
+                  {{classArray[classIndex] ? classArray[classIndex].name : '请选择'}}
+              </view>
+          </picker>
+          <view class="itemButtom">
+              <button class="seachButtom" formType="submit">{{data.examine == 1 ? '购 买 卡 密' : '领 取 卡 密'}}</button>
+          </view>
+      </form>
+      <!-- 确保 introduce 有值时再显示 -->
+      <text class="info" wx:if="{{classArray[classIndex] && classArray[classIndex].introduce}}" style="width: 577rpx; height: 293rpx; display: block; box-sizing: border-box; position: relative; left: 50rpx; top: -37rpx">
+        {{classArray[classIndex].introduce}}
+      </text>
+  </view>
+</view>

@@ -1,0 +1,5 @@
+﻿搭建后先添加一种卡密，否则没有数据会导致连接失败。
+广告前端代码里替换ID即可，代码里搜索 adunit- 。
+插屏广告 /pages/index/index.js  
+首页视频广告 /pages/index/index.wxml
+记录页顶部广告/pages/record/record.wxml
