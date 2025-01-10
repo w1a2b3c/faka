@@ -16,4 +16,4 @@
 
 小程序预览 
 
-![image](https://github.com/user-attachments/assets/27913971-40d3-4d83-a2d4-b588f0fd14d9)
+![image](https://gitee.com/ericwei001/xcx1/raw/master/image.png)
